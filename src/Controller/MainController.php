@@ -12,6 +12,10 @@ class MainController extends AbstractController
      */
     public function home()
     {
-        return $this->render('main/home.html.twig');
+        $username = "<h1>jean</h1>";
+        return $this->render('main/home.html.twig', [
+            "username" => $username,
+            "product" => "pifpaf"
+        ]);
     }
 }
