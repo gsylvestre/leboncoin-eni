@@ -1,3 +1,5 @@
+### pour ignorer les réglages PHPStorm
+/.idea/
 
 ###> symfony/framework-bundle ###
 /.env.local
